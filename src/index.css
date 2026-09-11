@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: "Be Vietnam Pro:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/BeVietnamPro-Bold_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/BeVietnamPro-Regular_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro:SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://static.figma.com/font/BeVietnamPro-SemiBold_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/BeVietnamPro-Medium_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Semi Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto Condensed:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/RobotoCondensed_wght__1") format("woff2");
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@keyframes spin-linear {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.animate-spin-linear {
+  animation: spin-linear 1s linear infinite;
+}
